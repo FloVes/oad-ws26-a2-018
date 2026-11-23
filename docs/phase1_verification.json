@@ -1,0 +1,219 @@
+{
+  "verified_at_utc": "2026-11-23T18:41:38.363195+00:00",
+  "manifest": {
+    "schema_version": 1,
+    "status": "complete",
+    "collection_name": "video_games",
+    "embedding_id": "hf:sentence-transformers/all-MiniLM-L6-v2@1110a243fdf4706b3f48f1d95db1a4f5529b4d41:torch:float32:l2:sentence-transformers-6.3.0",
+    "sample_limit": null,
+    "minimum_products": 100000,
+    "chunking": {
+      "size": 220,
+      "overlap": 24,
+      "unit": "wordpiece"
+    },
+    "source_file": "meta_Video_Games.jsonl.gz",
+    "source_sha256": "ced9696b0874121327a438bfe9d3d01aba45da158e58f94f4920352d75fc1fc9",
+    "started_at": "2026-11-23T18:30:53.530939+00:00",
+    "product_count": 137260,
+    "cleaning": {
+      "source_rows": 137269,
+      "products": 137260,
+      "missing_price": 75289,
+      "missing_description": 51730,
+      "missing_categories": 12636,
+      "missing_features": 39554,
+      "invalid_identity_or_title": 9
+    },
+    "indexed_chunks": 235473,
+    "chunk_count": 235473,
+    "embedding_dimensions": 384,
+    "distance": "cosine",
+    "elapsed_seconds": 607.54,
+    "finished_at": "2026-11-23T18:41:01.028609+00:00",
+    "assignment_size_met": true
+  },
+  "embedding_backend": "LangChain HuggingFaceEmbeddings / Sentence Transformers",
+  "checks": {
+    "canonical_product_count": 137260,
+    "indexed_distinct_product_count": 137260,
+    "vector_count": 235473,
+    "full_product_coverage": true,
+    "sampled_vectors_normalized_384d": true,
+    "sampled_vector_count": 5,
+    "fresh_process_reopen": true,
+    "hard_filters_and_exact_lookup": true,
+    "unknown_id_returns_none": true,
+    "unsatisfied_category_returns_empty": true,
+    "raw_file_hash_matches": true,
+    "promoted_default_index_cli": true
+  },
+  "unit_tests": {
+    "command": "python -B -m pytest -q -p no:cacheprovider",
+    "passed": 64
+  },
+  "semantic_smoke_queries": [
+    {
+      "query": "a keyboard with mechanical switches for playing on a computer",
+      "filters": {
+        "category": "PC",
+        "max_price": 100,
+        "min_rating": 4
+      },
+      "results": [
+        {
+          "item_id": "B09KHJBYT8",
+          "title": "Fiodio 61 Keys RGB Wired Mechanical Gaming Keyboard with Audible Click Sound Blue Switches, Compact Mini Portable Computer Keyboard for Windows Gaming PC,F-DB21",
+          "price": 36.61,
+          "currency": "USD",
+          "average_rating": 4.9,
+          "categories": [
+            "Video Games",
+            "PC",
+            "Accessories",
+            "Gaming Keyboards"
+          ],
+          "evidence_preview": "ideas, delivering more immersive gaming experience with strong “ clicky ” bgm. plug and play - one step to connect the mechanical keyboard with type - c cable ( included ), easy to offer you a high speed and more stable transmission. and the tenkeyless design with a detachable usb - c cable meets your needs to typing anywhere. wide compatibility - "
+        },
+        {
+          "item_id": "B0B8ZSGCQ5",
+          "title": "Anivia True Mechanical Gaming Keyboard Wired, Ergonomic Keyboard with Blue Switches, 87 Keys Waterproof Mini Keyboard for PC Laptop, RGB LED Rainbow Backlight",
+          "price": 18.99,
+          "currency": "USD",
+          "average_rating": 4.5,
+          "categories": [
+            "Video Games",
+            "PC",
+            "Accessories",
+            "Gaming Keyboards"
+          ],
+          "evidence_preview": "me, vista, 7, 8 ), linux and mac, plug and play, no drivers or software required. mechanical keyboard with blue switch : pressing the switch makes loud click sound, crisp paragraph feeling, excellent input feeling, strong mechanical feeling and long service life, providing precise tactile feedback for gaming and typing classic black mash up 75 % la"
+        },
+        {
+          "item_id": "B092JGBB69",
+          "title": "ET Mechanical Gaming Keyboard RGB Backlit Keys Computer Keyboard, 16.8 Million Color 104 Keys Blue Switch Wired Gaming Keyboards Full Size, Aluminum Base USB Keyboard for PC Gamer Laptop",
+          "price": 24.59,
+          "currency": "USD",
+          "average_rating": 4.2,
+          "categories": [
+            "Video Games",
+            "PC",
+            "Accessories",
+            "Gaming Keyboards"
+          ],
+          "evidence_preview": "appear on certain keys or in special sequences. tactile blue keyswitches - mechanical switches with 2. 0mm actuation. the blue switches combine actuation force with a satisfying tactile - click activation on every keystroke and deliver a superior typing experience over rubber dome keyboards. the mechanical switches are very balanced for typing or g"
+        }
+      ]
+    },
+    {
+      "query": "headphones with a microphone for talking to teammates",
+      "filters": {
+        "category": "Headsets",
+        "max_price": 150,
+        "min_rating": 4
+      },
+      "results": [
+        {
+          "item_id": "B00F897IX0",
+          "title": "Mad Catz F.R.E.Q.4D Gaming Stereo Headphones Headset with Microphone for PC, Mac, and Smart Devices",
+          "price": 49.0,
+          "currency": "USD",
+          "average_rating": 4.0,
+          "categories": [
+            "Video Games",
+            "PC",
+            "Accessories",
+            "Headsets"
+          ],
+          "evidence_preview": "audio cable – replete with in - line controls for media and phone calls – and then plug directly into your device. and if you have a smartphone *, you can even take voice calls using the integrated microphone. ( * supports apple iphone, samsung, blackberry, and htc handsets. ) integrated microphone coordinates your team an earcup - integrated mic g"
+        },
+        {
+          "item_id": "B07KY2TXR5",
+          "title": "HyperX Cloud Alpha Gaming Headset - Dual Chamber Drivers - Durable Aluminum Frame - Detachable Microphone - Works with PC, PS4, PS4 PRO, Xbox One, Xbox One S (HX-HSCA-RD/AM) (Renewed)",
+          "price": 54.99,
+          "currency": "USD",
+          "average_rating": 4.4,
+          "categories": [
+            "Video Games",
+            "PC",
+            "Accessories",
+            "Headsets"
+          ],
+          "evidence_preview": "5mm headphone jack, which allows it to be used with a wide variety of gaming devices, including pcs, consoles, and mobile devices. the cable also includes an in - line audio control module that allows you to adjust the volume and mute the microphone with ease. speaking of the microphone, the hyperx cloud alpha gaming headset comes with a detachable"
+        },
+        {
+          "item_id": "B09TQ29GF3",
+          "title": "AOC GH401 Wireless Gaming Headset with 2.4GHz USB Connection for PC, PS5, Switch, 50mm Drivers, Noise-canceling mic, 17 Hours Battery Life + Aux 3.5mm Connector for Xbox and More",
+          "price": 43.29,
+          "currency": "USD",
+          "average_rating": 4.1,
+          "categories": [
+            "Video Games",
+            "PC",
+            "Accessories",
+            "Headsets"
+          ],
+          "evidence_preview": "can also connect it to your phone and listen to music on the go. record with maximum clarity : the detachable unidirectional boom mic provides crystal clear calls with noise cancelling technology, so you are always in touch with your teammates. engineered for enduring comfort : covered in premium protein leather with generous memory foam padding an"
+        }
+      ]
+    },
+    {
+      "query": "steering wheel and pedals for a driving simulator",
+      "filters": {
+        "category": "PC",
+        "min_rating": 3.5
+      },
+      "results": [
+        {
+          "item_id": "B0BTVFS8L1",
+          "title": "DOYO Gaming Racing Wheel, Steering Wheel for PC, 270 Degree Driving Force Sim Game Steering Wheel with Responsive Gear and Pedals for PC/PS3/PS4/XBOX ONE/XBOX 360/Nintendo Switch/Android",
+          "price": null,
+          "currency": "USD",
+          "average_rating": 3.8,
+          "categories": [
+            "Video Games",
+            "PC",
+            "Accessories",
+            "Controllers",
+            "Racing Wheels"
+          ],
+          "evidence_preview": "pedals with progressive braking resistance and adjustable tilt angle. during the game, you can easily operate the steering wheel and feel every detail. it can bring you a better gaming experience. [UNK] [UNK] easy to install and use [UNK] gaming steering wheel and pedals and shifter xbox can be directly connected to the controller and console, comp"
+        },
+        {
+          "item_id": "B089GMZF8L",
+          "title": "ATHOR G920 Racing Steering Wheel Stand Shifter Mount fit for Logitech G27 G25 G29 Gaming Wheel Stand Wheel Pedals NOT Included Racing Wheel Stand",
+          "price": null,
+          "currency": "USD",
+          "average_rating": 3.8,
+          "categories": [
+            "Video Games",
+            "PC",
+            "Accessories",
+            "Controllers",
+            "Racing Wheels"
+          ],
+          "evidence_preview": "steering wheel and the seat could adjustable to suit the different needs of different players. and angle of pedal are adjustable and could also be adjusted to all gamers. [UNK] wheel stand foldable quickly [UNK] : the steering wheel stand folds in three seconds and can be shrunk to a surprisingly small size without removing the device, saving space"
+        },
+        {
+          "item_id": "B08RCPY43H",
+          "title": "PXN V9 Gaming Racing Wheel with Pedals and Shifter, Steering Wheel for PC, Xbox One, Xbox Series X/S, PS4, PS3 and Nintendo Switch",
+          "price": 179.99,
+          "currency": "USD",
+          "average_rating": 3.9,
+          "categories": [
+            "Video Games",
+            "PC",
+            "Accessories",
+            "Controllers",
+            "Racing Wheels"
+          ],
+          "evidence_preview": "and forth between 270 degrees and 900 degrees, allowing the steering wheel to quickly adapt to racing and driving simulation games simulate steering wheel with pedals and shifter : responsive floor pedal, acceleration, braking and gear shift with the feel of an actual car. the six - speed manual shifter uses an \" h \" gearbox for quick and smooth sh"
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "Smoke queries permit human inspection; they are not a relevance benchmark.",
+    "No agent dialogue, generated explanations, guardrail policies or UI are implemented in Phase 1."
+  ]
+}
